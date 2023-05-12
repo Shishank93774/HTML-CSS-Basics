@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #e5e5fd;
+  min-height: 100vh;
+  border: 13px solid #1d1e4c;
+  font-family: Inter, sans-serif;
+}
+
+.content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.img_container,
+img {
+  width: 300px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.top_section {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+  align-items: flex-end;
+  margin-top: 100px;
+  text-transform: capitalize;
+}
+
+.top_section h6 {
+  margin-bottom: 15%;
+  text-align: end;
+}
+
+.main_section {
+  margin-top: 100px;
+}
+
+.main_section h2 {
+  font-size: 4rem;
+  font-weight: 600;
+  word-spacing: 1.2rem;
+}
+
+.main_section p {
+  font-size: 1.05rem;
+  font-weight: 400;
+  margin-top: 30px;
+}
+
+.bottom_section {
+  margin-top: 5%;
+}
+
+.bottom_section h3 {
+  font-size: 1.5rem;
+}
+
+.refrences {
+  margin-top: 2.5%;
+  margin-left: 2.5%;
+}
+
+li::before {
+  font-size: 0.2rem;
+}
+
+.footer {
+  margin: 50px 50px 50px 0px;
+  text-align: right;
+  font-weight: 600;
+}
+
+.footer a,
+.footer a:visited {
+  text-decoration: none;
+  color: dodgerblue;
+}
+
+a img {
+  width: 15px;
+}
