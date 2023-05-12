@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <h1>
+          Job Application <span class="inner_heading">(Web Developement)</span>
+        </h1>
+        <section class="main_content">
+          <form action="back.php" method="get">
+            <div class="inner_form">
+              <div class="block">
+                <label for="firstname">First Name</label>
+                <input required type="text" name="" id="firstname" />
+              </div>
+              <div class="block">
+                <label for="lastname">Last Name</label>
+                <input required type="text" name="" id="lastname" />
+              </div>
+              <div class="block">
+                <label for="email">Email</label>
+                <input required type="text" name="" id="email" />
+              </div>
+              <div class="block">
+                <label for="jobrole">Job Role</label>
+                <select name="jobrole" name="" id="jobrole">
+                  <option value="--Not Sure--">--Not Sure--</option>
+                  <option value="FrontEnd Engineer">FrontEnd Engineer</option>
+                  <option value="Backend Engineer">Backend Engineer</option>
+                  <option value="FullStack Web Developer">
+                    FullStack Web Developer
+                  </option>
+                  <option value="DevOPS/DevTEST">DevOPS/DevTEST</option>
+                </select>
+              </div>
+              <div class="block input_address">
+                <label for="address">Address</label>
+                <textarea
+                  name=""
+                  id="address"
+                  rows="10"
+                  placeholder="Permanent/Residential Address"
+                ></textarea>
+              </div>
+              <div class="block">
+                <label for="city">City</label>
+                <input required type="text" id="city" />
+              </div>
+              <div class="block">
+                <label for="pincode">Pincode</label>
+                <input required type="text" id="pincode" />
+              </div>
+              <div class="block">
+                <label for="startdate">Start Date</label>
+                <input required type="date" id="startdate" />
+              </div>
+              <div class="block">
+                <label for="cv">Upload Your CV/Resume</label>
+                <input required type="file" id="cv" />
+              </div>
+            </div>
+            <div class="submit">
+              <input type="submit" value="Apply Now!" />
+            </div>
+          </form>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
