@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: Roboto, sans-serif, monospace;
+  color: aliceblue;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  background-color: #37008e;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.nav-title {
+  margin: 2% auto 2% 10%;
+  cursor: pointer;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.not_break {
+  white-space: nowrap;
+}
+
+.nav-links,
+.nav-links a {
+  color: aliceblue;
+  text-decoration: none;
+  margin: 2% 10%;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  height: 100vh;
+}
+
+.hero-section {
+  background-image: url("assets/images/hero_image.png");
+  min-height: 100%;
+  position: relative;
+}
+
+.hero-text {
+  position: absolute;
+  color: aliceblue;
+  width: 80%;
+  margin: 25% 12%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-title {
+  font-size: 3.6rem;
+  font-weight: 600;
+}
+
+.hero-desc {
+  margin: 2% auto;
+  font-size: 1.5rem;
+}
+
+.hero-more_desc {
+  width: 75%;
+  font-size: 0.8rem;
+}
+
+.middle-section {
+  min-height: 1000px;
+  position: relative;
+}
+
+.middle-top {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-color: #281154;
+  height: 50%;
+}
+
+.middle-wrapper {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  margin: 2% 0 0 0;
+  font-weight: 600;
+}
+
+.img-container img {
+  margin: 2% 10%;
+}
+
+.music-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 700;
+}
+
+.music-title {
+  margin: 3% auto;
+  font-size: 1.5rem;
+}
+
+.music-desc {
+  font-size: 0.9rem;
+}
+
+.trial {
+  background-color: #dc0000;
+  color: aliceblue;
+  padding: 1.5% 3%;
+  border: none;
+  border-radius: 10px;
+  margin: 2%;
+}
+
+.trial:hover {
+  opacity: 0.8;
+}
+
+.trial:active {
+  scale: calc(1.04);
+  box-shadow: 2px 2px #d74b4b;
+}
+
+.music-info {
+  font-weight: 300;
+  font-size: 0.8rem;
+  margin-bottom: 4%;
+}
+
+.music-img {
+  position: absolute;
+  top: 50%;
+  margin: 0 auto;
+}
