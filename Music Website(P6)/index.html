@@ -11,14 +11,14 @@
     <nav class="nav">
       <h3 class="nav-title">myTunes</h3>
       <div class="nav-links">
-        <a href="">Overview</a>
+        <a href="#overview">Overview</a>
         <a href="#music">Music</a>
         <a href="#video">Video</a>
         <a href="#gift_card"> <span class="not_break">Gift Cards</span> </a>
       </div>
     </nav>
     <div class="container">
-      <section class="hero-section">
+      <section id="overview" class="hero-section">
         <div class="hero-text">
           <div class="hero-title">myTunes</div>
           <div class="hero-desc">
@@ -38,7 +38,7 @@
               <img src="assets/icons/music.png" alt="music" />Music
             </div>
             <div class="music-text">
-              <div class="music-title">45 million songs. Zero ads.</div>
+              <div class="music-title">45 Million+ Songs. Zero Ads.</div>
               <div class="music-desc">
                 Stream over 45 million songs, ad-free. Or download albums and
                 tracks to listen to offline. All the music in your personal
@@ -53,10 +53,114 @@
               devices.
             </div>
           </div>
+          <div class="music-img">
+            <img src="assets/images/ipad-iphone.png" alt="ipad-iphone" />
+          </div>
         </div>
-        <div class="music-img">
-          <img src="assets/images/ipad-iphone.png" alt="ipad-iphone" />
+        <div class="md-bt">
+          <div class="md-bt-title">
+            The movie and TV collection you always wished for. Granted.
+          </div>
+          <div class="md-bt-desc">
+            With over 100,000 movies and TV shows to choose from, there’s always
+            something great to watch on myTunes and if you watch on Orange TV
+            4K, you’ll be able to enjoy a tremendous selection of your favorite
+            content in 4K HDR. So get ready to enjoy episodes of your favorite
+            TV shows or hit movies you’ve been waiting to see — anytime,
+            anywhere. Just tap to play, or even download if you’re going
+            somewhere you won’t have Wi-Fi.
+          </div>
+          <button class="read_more">Read More</button>
+          <div class="md-bt-img">
+            <img src="assets/images/mac.png" alt="mac" />
+          </div>
         </div>
+      </section>
+      <section class="middle-2" id="video">
+        <video autoplay muted loop id="myVideo">
+          <source src="assets/videos/Dance Party.mp4" type="video/mp4" />
+        </video>
+        <div class="content">
+          <h1>A world of entertainment. Available wherever you are.</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro cum
+            explicabo soluta, quod vitae, totam iste sunt illo eum nemo nisi hic
+            eveniet ut ratione omnis rerum ea atque ducimus qui quaerat commodi!
+            Maiores assumenda soluta, neque natus ut fugiat?
+          </p>
+        </div>
+      </section>
+      <section class="middle-3" id="gift_card">
+        <div class="md3-img-container">
+          <img src="assets/images/gift_card.png" alt="gift_card" />
+        </div>
+        <div class="md3-content">
+          <div class="md3-content-title">Gift Cards</div>
+          <div class="md3-content-desc">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error
+            consequuntur labore nesciunt voluptatum suscipit corrupti quam
+            consequatur natus sunt. Ratione, deserunt excepturi ullam explicabo
+            a doloremque itaque alias aliquam accusamus?
+          </div>
+          <div class="md3-content-ques">
+            Already have an Orange myTunes Music Gift Card?
+          </div>
+          <form action="back.php" method="get" class="redeem-form">
+            <input type="text" placeholder="GIFT CODE" />
+          </form>
+          <button class="redeem">Redeem</button>
+        </div>
+      </section>
+      <section class="footer-top">
+        <div class="ft-top-wrapper">
+          <div class="ft-top-frame">
+            <div class="ft-top-title">Shop & Learn</div>
+            <div class="hr"></div>
+            <ul class="ft-top-links">
+              <li>Music</li>
+              <li>Movies</li>
+              <li>Shows</li>
+              <li>Apps</li>
+              <li>Gift Cards</li>
+            </ul>
+          </div>
+          <div class="ft-top-frame">
+            <div class="ft-top-title">Orange Store</div>
+            <div class="hr"></div>
+            <ul class="ft-top-links">
+              <li>Find a Store</li>
+              <li>Today at Orange</li>
+              <li>Orange Camp</li>
+              <li>Financing</li>
+              <li>Order Status</li>
+            </ul>
+          </div>
+          <div class="ft-top-frame">
+            <div class="ft-top-title">Education & Business</div>
+            <div class="hr"></div>
+            <ul class="ft-top-links">
+              <li>Orange & Education</li>
+              <li>Shop for College</li>
+              <li>Orange & Business</li>
+              <li>Shop for Business</li>
+              <li>Careers at Orange</li>
+            </ul>
+          </div>
+          <div class="ft-top-frame">
+            <div class="ft-top-title">About Orange</div>
+            <div class="hr"></div>
+            <ul class="ft-top-links">
+              <li>Newsroom</li>
+              <li>Orange Leadership</li>
+              <li>Investors</li>
+              <li>Events at Orange</li>
+              <li>Contact Us</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="footer-last">
+        Copyright &copy; 2023-Present &nbsp;&nbsp;&nbsp; SHISHANK RAWAT
       </section>
     </div>
   </body>
