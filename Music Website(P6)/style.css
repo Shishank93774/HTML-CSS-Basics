@@ -17,7 +17,7 @@ button:hover {
   cursor: pointer;
 }
 
-ul{
+ul {
   list-style: none;
 }
 
@@ -333,28 +333,28 @@ ul{
   width: 200px;
 }
 
-.ft-top-wrapper{
+.ft-top-wrapper {
   display: flex;
   margin-left: 8%;
   justify-content: space-evenly;
   width: 85%;
 }
 
-.ft-top-frame{
+.ft-top-frame {
   white-space: nowrap;
   margin: 2%;
 }
 
-.ft-top-title{
+.ft-top-title {
   margin-bottom: 5%;
 }
 
-.ft-top-links li{
-  font-size: .8rem;
+.ft-top-links li {
+  font-size: 0.8rem;
   line-height: 1.2rem;
 }
 
-.footer-last{
+.footer-last {
   min-height: 10%;
   background-color: #6708ff;
   display: grid;
