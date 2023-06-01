@@ -12,8 +12,12 @@
       <nav>
         <h1>GreatZone</h1>
         <ul>
-          <li>Home</li>
-          <li>Posts</li>
+          <li>
+            <a href="#"> Home </a>
+          </li>
+          <li>
+            <a href="about.html"> Posts </a>
+          </li>
           <li>
             <img src="assets/icons/instagram.png" alt="instagram" />
           </li>
@@ -26,8 +30,11 @@
         </ul>
       </nav>
     </header>
-    <main>
-      <section class="hero">
+    <a href="#top">
+      <button class="back_to_top">Back To Top</button>
+    </a>
+    <main class="index-main" id="top">
+      <section class="index-hero">
         <div class="hero-text">
           <div class="hero-title">Make Zone Better!</div>
           <div class="hero-desc">Why is better Zone important?</div>
@@ -104,8 +111,37 @@
             </div>
           </section>
         </section>
-        
+        <section class="card-hero">
+          <div class="card-hero-text">
+            <div class="card-hero-title">What is Lorem Ipsum ?</div>
+            <div class="card-hero-desc">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout. The
+              point of using Lorem Ipsum is that it has a more-or-less normal
+              distribution...
+            </div>
+            <div class="card-footer">
+              <div class="card-date">May 20<sup>th</sup> 2023</div>
+              <button class="read_more">Read More</button>
+            </div>
+          </div>
+          <img src="assets/images/long-big-card.png" alt="long-big-card" />
+        </section>
       </section>
+      <button class="see_more">
+        <div class="content">
+          <div class="text">See More</div>
+          <img
+            src="assets/icons/arrow-down-circle-fill.png"
+            alt="arrow-down-circle-fill"
+          />
+        </div>
+      </button>
     </main>
+    <footer>
+      <div class="text">
+        GreatZone 2023 &copy; Copyright all rights reserved
+      </div>
+    </footer>
   </body>
 </html>

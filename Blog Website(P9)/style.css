@@ -29,7 +29,9 @@ ul {
 header {
   position: sticky;
   top: 0;
+  margin-top: 0;
   background-color: #fff;
+  z-index: 1;
 }
 
 nav {
@@ -62,16 +64,103 @@ nav ul li:hover {
   border-bottom: gray 2px solid;
 }
 
-main {
-  margin: 7% auto;
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  scale: calc(1.007);
+  opacity: 0.7;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover,
+a:active,
+a:visited {
+  color: black;
+}
+
+.back_to_top {
+  position: sticky;
+  top: 85%;
+  left: 95%;
+  border: 1px solid #6b46c1;
+  background-color: #6b46c1;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  color: white;
+}
+
+.index-main {
+  margin: 0 auto;
   width: 85%;
 }
 
-.hero {
+.index-hero {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.about-main {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.about-hero {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-hero h1 {
+  font-size: 3rem;
+  color: #2d3748;
+  margin: 1% 0 2% 0;
+}
+
+.about-hero .credits {
+  display: flex;
+}
+
+.credits {
+  color: #718096;
+  display: flex;
+  align-items: center;
+  margin-bottom: 3%;
+}
+
+.credits .writer {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-right: 2%;
+}
+
+.credits .day,
+.credits .date {
+  margin-right: 3%;
+}
+
+.about-content {
+  margin: 5% 0;
+  color: #718096;
+  font-weight: 400;
+}
+
+.about-content h3 {
+  color: black;
+  font-weight: 700;
+}
+
+.about-content h1 {
+  color: black;
+  font-weight: 700;
 }
 
 .hero-title {
@@ -154,7 +243,7 @@ main {
 }
 .card-main:hover,
 .card-other:hover {
-  scale: calc(1.04);
+  scale: calc(1.01);
 }
 
 .card-other img {
@@ -178,4 +267,60 @@ main {
   display: flex;
   justify-content: space-between;
   font-size: 1.2rem;
+}
+
+.card-hero {
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  justify-content: space-around;
+  background-color: aliceblue;
+  border-radius: 15px;
+}
+
+.card-hero-text {
+  margin: 0 2%;
+}
+
+.card-hero .read_more {
+  background-color: aliceblue;
+}
+
+.card-hero img {
+  border-radius: 0px 15px 15px 0px;
+}
+
+.card-hero-title {
+  font-size: 6rem;
+  font-weight: 900;
+}
+
+.see_more {
+  margin-top: 5%;
+  margin-left: 91%;
+  background-color: #6b46c1;
+  border: none;
+  border-radius: 2px;
+  padding: 5px;
+  color: white;
+}
+
+.see_more .text {
+  margin-right: 5px;
+}
+
+button .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+}
+
+footer {
+  border-top: 1px solid gray;
+  padding: 20px;
+  text-align: center;
+  margin: 10px auto;
+  font-size: 2rem;
+  font-weight: 400;
 }
