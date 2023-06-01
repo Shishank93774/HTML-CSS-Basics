@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  font-family: "Inter", sans-serif, monospace;
+  line-height: 1.4;
+  font-weight: 300;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.4rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  max-width: 85vw;
+  margin: 0 auto;
+}
+
+nav ul {
+  display: flex;
+  gap: 2rem;
+}
+
+nav h1,
+nav ul li {
+  cursor: pointer;
+}
+
+nav ul li {
+  font-size: 1.8rem;
+}
+
+nav ul li img {
+  height: 22px;
+}
+
+nav ul li:hover {
+  border-bottom: gray 2px solid;
+}
+
+main {
+  margin: 7% auto;
+  width: 85%;
+}
+
+.hero {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-title {
+  font-size: 6rem;
+  font-weight: 700;
+}
+
+.hero-desc {
+  font-weight: 400;
+  color: #4a5568;
+  cursor: pointer;
+}
+
+.hero-img {
+  border-radius: 65px;
+}
+
+.cardsbar {
+  margin-top: 7%;
+}
+
+.card-main {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0px 5px 4px rgba(221, 221, 221, 0.45);
+  transition: scale 0.7s;
+}
+
+.card-main-text {
+  padding: 0 5%;
+  color: #718096;
+}
+
+.card-title {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  font-weight: 700;
+  color: black;
+}
+
+.card-footer {
+  margin: 5% auto;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+}
+
+.card-date {
+  color: #718096;
+}
+
+.read_more {
+  cursor: pointer;
+  font-weight: 700;
+  border: none;
+  background-color: white;
+}
+
+.card-img {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: flex;
+}
+
+.cards-others {
+  margin: 7% auto;
+  display: flex;
+  gap: 5rem;
+}
+
+.card-other {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 5px 4px rgba(221, 221, 221, 0.45);
+  transition: scale 1s;
+}
+.card-main:hover,
+.card-other:hover {
+  scale: calc(1.04);
+}
+
+.card-other img {
+  border-radius: 5px 5px 0px 0px;
+  width: 100%;
+}
+
+.card-other-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 5% auto;
+}
+
+.card-other-desc {
+  padding: 2%;
+  color: #718096;
+}
+
+.card-other .card-footer {
+  margin: 5% 3%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+}
